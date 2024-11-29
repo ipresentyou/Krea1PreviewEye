@@ -1,0 +1,28 @@
+{
+    "name": "fmjstudios/boilerplate",
+    "description": "Boilerplate code for new Shopware 6 Plugins",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "FMJStudios\\Boilerplate\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "FMJStudios\\Boilerplate\\FMJStudiosBoilerplate",
+        "label": {
+            "de-DE": "Boilerplate plugin",
+            "en-GB": "Boilerplate plugin"
+        }
+    },
+    "require": {
+        "shopware/core": "~6.6"
+    },
+    "authors": [
+        {
+            "name": "FMJdev",
+            "email": "info@fmj.dev"
+        }
+    ]
+}

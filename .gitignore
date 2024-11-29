@@ -1,0 +1,17 @@
+# custom editor configuration
+/.idea
+# deps
+vendor
+
+# ephemeral files
+/public/bundles/*
+/public/media/*
+/public/theme/*
+/public/thumbnail/*
+/public/sitemap/*
+/files/
+/var/
+/secrets/
+src/Resources/app/storefront/dist/storefront/js
+src/Resources/public/administration/js
+src/Resources/public/administration/css
